@@ -2291,7 +2291,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #5A9829;
 		}
 
 		.icon.style2 {
@@ -2299,7 +2299,7 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #086BC8;
 		}
 
 		.icon.style4 {
@@ -2307,7 +2307,7 @@ input, select, textarea {
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #Eb1313;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2981,7 +2981,6 @@ input, select, textarea {
 		align-items: center;
 		margin: 0 0 2em 0;
 	}
-
 		.spotlight .content {
 			-moz-flex: 1;
 			-webkit-flex: 1;
@@ -2994,6 +2993,21 @@ input, select, textarea {
 			}
 
 			.spotlight .content header.major {
+				margin: 0 0 2em 0;
+			}
+
+		.spotlight .content2 {
+			-moz-flex: 1;
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+		}
+
+			.spotlight .content2 > :last-child {
+				margin-bottom: 0;
+			}
+
+			.spotlight .content2 header.major {
 				margin: 0 0 2em 0;
 			}
 
